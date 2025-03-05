@@ -1,0 +1,161 @@
+body {
+    background-color: #78b1eb;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .special-heading {
+    display: inline-block;
+    animation: fade-in 1s ease-in-out;
+  }
+
+  @keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+  @keyframes rotate-in {
+    0% {
+        transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+    }
+
+    100% {
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .cust{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7eb8f;
+    color:black;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .hist{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9df78f;
+    color:black;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+
+  .qr-code-history {
+    margin-top: 20px;
+  }
+
+  .qr-code-history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .qr-code-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .qr-code-history li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .qr-code-history li p {
+    margin: 0;
+  }
+
+  .qr-code-history li p:first-child {
+    font-weight: bold;
+  }
+
+  .qr-code-history li p:last-child {
+    color: #666;
+    font-size: 12px;
+  }
+
+  .footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer p:last-child {
+    margin-bottom: 0;
+  }
+  
