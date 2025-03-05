@@ -18,7 +18,7 @@ QRCodeGenerator/
 │-- src/
 │   ├── App.js
 │   ├── index.js
-│   ├── App.css
+│   ├── styles.css
 │-- public/
 │-- package.json
 │-- README.md
