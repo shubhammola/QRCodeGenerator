@@ -31,5 +31,4 @@ QRCodeGenerator/
 3. Install dependencies: `npm install`
 4. Start the application: `npm start`
 
-
 ## [Live Demo](https://shubhqrcode.netlify.app)
