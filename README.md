@@ -32,4 +32,4 @@ QRCodeGenerator/
 4. Start the application: `npm start`
 
 
-[Live Demo](https://shubhqrcode.netlify.app)
+## [Live Demo](https://shubhqrcode.netlify.app)
