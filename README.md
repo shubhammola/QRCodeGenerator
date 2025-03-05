@@ -14,7 +14,7 @@ A simple QR Code Generator built using React. This application allows users to g
 
 ## 📂 Project Structure
 ```
-qrcode/
+QRCodeGenerator/
 │-- src/
 │   ├── App.js
 │   ├── index.js
@@ -26,8 +26,8 @@ qrcode/
 ```
 
 ## 📌 How to Run the Project
-1. Clone the repository: https://github.com/shubhammola/QRCodeGenerator.git
-2. Navigate to the project directory: cd qrcode
+1. Clone the repository: git clone https://github.com/shubhammola/QRCodeGenerator.git
+2. Navigate to the project directory: cd QRCodeGenerator
 3. Install dependencies: npm install
 4. Start the application: npm start
 
