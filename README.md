@@ -26,7 +26,7 @@ qrcode/
 ```
 
 ## 📌 How to Run the Project
-1. Clone the repository: git clone https://github.com/shubhammola/QRCodeGenertaore.git
+1. Clone the repository: https://github.com/shubhammola/QRCodeGenerator.git
 2. Navigate to the project directory: cd qrcode
 3. Install dependencies: npm install
 4. Start the application: npm start
